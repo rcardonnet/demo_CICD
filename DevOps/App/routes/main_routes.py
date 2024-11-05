@@ -62,7 +62,7 @@ def add_user():
     age = int(request.form['age'])
     email = request.form['email']
     if not validate_email(email):
-        return {'error': 'Email invalide'}, 400
+        return {'error': 'Email invalide2'}, 400
 
     """
     Insertion du nouvel utilisateur dans la collection
